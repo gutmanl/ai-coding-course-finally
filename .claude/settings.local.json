@@ -3,5 +3,12 @@
     "allow": [
       "Bash(find C:/Users/Admin/Documents/Web-Projekte/ai-coding-course-finally/finally -maxdepth 1 -name .env* -o -name Dockerfile -o -name docker-compose* -o -name *.yml -o -name *.yaml)"
     ]
+  },
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true
+  },
+  "remote": {
+    "defaultEnvironmentId": "env_017RQBxFJ1qD4ka9P8UdfDkA"
   }
 }
